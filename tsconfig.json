@@ -4,19 +4,30 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-
     // JSX
     "jsx": "preserve",
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment",
-
     // Core checks
     "strict": true,
     "noEmit": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
-
+    "types": [
+      "nitro-graphql"
+    ],
+    "paths": {
+      "#graphql/server": [
+        "./.nitro/types/nitro-graphql-server.d.ts"
+      ],
+      "#graphql/client": [
+        "./.nitro/types/nitro-graphql-client.d.ts"
+      ],
+      "#graphql/schema": [
+        "./server/graphql/schema.ts"
+      ]
+    },
     // Additional safety
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,

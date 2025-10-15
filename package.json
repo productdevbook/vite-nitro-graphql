@@ -1,13 +1,19 @@
 {
   "name": "nitro-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "vite build",
     "dev": "vite dev",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "nitro": "npm:nitro-nightly@latest",
+    "nitro": "^3.0.1-alpha.0",
     "vite": "latest"
+  },
+  "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.16.0",
+    "nitro-graphql": "2.0.0-beta.4"
   }
 }
