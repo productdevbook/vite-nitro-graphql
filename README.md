@@ -2,6 +2,8 @@
 
 A modern full-stack starter template combining [Vite](https://vitejs.dev/), [Nitro](https://v3.nitro.build/), and [GraphQL](https://github.com/productdevbook/nitro-graphql).
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/productdevbook/vite-nitro-graphql?file=server%2Fgraphql%2Fuser%2FgetUser.resolver.ts)
+
 ## Features
 
 - ⚡️ **Vite** - Lightning fast frontend build tool

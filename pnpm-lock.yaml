@@ -16,11 +16,11 @@ importers:
         version: 5.16.0(graphql@16.11.0)
       nitro-graphql:
         specifier: 2.0.0-beta.4
-        version: 2.0.0-beta.4(@types/node@24.7.2)(crossws@0.4.1(srvx@0.8.16))(graphql-tag@2.12.6(graphql@16.11.0))(graphql@16.11.0)(h3@2.0.1-rc.2(crossws@0.4.1(srvx@0.8.16)))(nitro@3.0.1-alpha.0(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)))
+        version: 2.0.0-beta.4(@types/node@24.7.2)(crossws@0.4.1(srvx@0.8.16))(graphql-tag@2.12.6(graphql@16.11.0))(graphql@16.11.0)(h3@2.0.1-rc.2(crossws@0.4.1(srvx@0.8.16)))(nitro-nightly@3.0.1-20251015-114932-a0f52cc9(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)))
     devDependencies:
       nitro:
-        specifier: ^3.0.1-alpha.0
-        version: 3.0.1-alpha.0(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))
+        specifier: npm:nitro-nightly@latest
+        version: nitro-nightly@3.0.1-20251015-114932-a0f52cc9(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))
       vite:
         specifier: latest
         version: 7.1.9(@types/node@24.7.2)(jiti@2.6.1)
@@ -1626,8 +1626,8 @@ packages:
       '@as-integrations/h3':
         optional: true
 
-  nitro@3.0.1-alpha.0:
-    resolution: {integrity: sha512-lR3RplfXBOZXNlFQf9AJkqFVFhg5/CNbpBijM0dSYhGymb+FthJSdL6crmXVg518h2NVOd40rehhGZaf9ijW9w==}
+  nitro-nightly@3.0.1-20251015-114932-a0f52cc9:
+    resolution: {integrity: sha512-Q4r6W7QK6ozLJ3SDY/hgDw5YxrMDfR1mLK1ZiwqglBChvVQMOClVGCzBpLDrVSOd57W+ErYYvXB1m1I/oNmy5w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -3846,7 +3846,7 @@ snapshots:
 
   nf3@0.1.1: {}
 
-  nitro-graphql@2.0.0-beta.4(@types/node@24.7.2)(crossws@0.4.1(srvx@0.8.16))(graphql-tag@2.12.6(graphql@16.11.0))(graphql@16.11.0)(h3@2.0.1-rc.2(crossws@0.4.1(srvx@0.8.16)))(nitro@3.0.1-alpha.0(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))):
+  nitro-graphql@2.0.0-beta.4(@types/node@24.7.2)(crossws@0.4.1(srvx@0.8.16))(graphql-tag@2.12.6(graphql@16.11.0))(graphql@16.11.0)(h3@2.0.1-rc.2(crossws@0.4.1(srvx@0.8.16)))(nitro-nightly@3.0.1-20251015-114932-a0f52cc9(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))):
     dependencies:
       '@apollo/subgraph': 2.11.3(graphql@16.11.0)
       '@graphql-codegen/core': 5.0.0(graphql@16.11.0)
@@ -3870,7 +3870,7 @@ snapshots:
       graphql-scalars: 1.25.0(graphql@16.11.0)
       h3: 2.0.1-rc.2(crossws@0.4.1(srvx@0.8.16))
       knitwork: 1.2.0
-      nitro: 3.0.1-alpha.0(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))
+      nitro: nitro-nightly@3.0.1-20251015-114932-a0f52cc9(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1))
       ohash: 2.0.11
       oxc-parser: 0.95.0
       pathe: 2.0.3
@@ -3889,7 +3889,7 @@ snapshots:
       - uWebSockets.js
       - utf-8-validate
 
-  nitro@3.0.1-alpha.0(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)):
+  nitro-nightly@3.0.1-20251015-114932-a0f52cc9(chokidar@4.0.3)(vite@7.1.9(@types/node@24.7.2)(jiti@2.6.1)):
     dependencies:
       consola: 3.4.2
       cookie-es: 2.0.0
