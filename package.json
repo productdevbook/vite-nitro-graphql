@@ -14,6 +14,9 @@
   "dependencies": {
     "graphql": "^16.11.0",
     "graphql-yoga": "^5.16.0",
-    "nitro-graphql": "2.0.0-beta.4"
+    "nitro-graphql": "2.0.0-beta.6"
+  },
+  "resolutions": {
+    "nf3": "0.1.3"
   }
 }
