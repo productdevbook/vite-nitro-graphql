@@ -12,6 +12,9 @@ export default defineConfig({
     modules: ["nitro-graphql"],
     graphql: {
       framework: 'graphql-yoga',
+      paths: {
+        serverGraphql: 'routes/graphql',
+      },
     },
   },
 });

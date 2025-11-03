@@ -15,8 +15,8 @@ importers:
         specifier: ^5.16.0
         version: 5.16.0(graphql@16.12.0)
       nitro-graphql:
-        specifier: 2.0.0-beta.8
-        version: 2.0.0-beta.8(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251103-181403-aefcdb31(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)))
+        specifier: 2.0.0-beta.9
+        version: 2.0.0-beta.9(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251103-181403-aefcdb31(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)))
     devDependencies:
       nitro:
         specifier: npm:nitro-nightly@latest
@@ -1588,8 +1588,8 @@ packages:
   nf3@0.1.5:
     resolution: {integrity: sha512-kb6KFkGzOx1ux95s8kSJF17D/j2hgkWn7/gW6qgLYEZYY6a3eJH463zqb/H/gZLNgQAdGd7FpLkdfbSrXncqhw==}
 
-  nitro-graphql@2.0.0-beta.8:
-    resolution: {integrity: sha512-XJ3P5cRJnrzGMS5JgLs+iDOxXR2fENrwkhXcZOVEI8jBX+DsHGvSH/R/DilRbpeKeO60qj40EkkLrVdjflVP5w==}
+  nitro-graphql@2.0.0-beta.9:
+    resolution: {integrity: sha512-q68dQTSCQUxoph1322o5eHQPBN6ts+D74wnT4i+8aj3ZtjU0l1E27vLG1umE4zOFgTmbgEu7+DHgblcac3yrJw==}
     peerDependencies:
       '@apollo/server': ^5.0.0
       '@apollo/utils.withrequired': ^3.0.0
@@ -2917,7 +2917,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.12.0)':
     dependencies:
       graphql: 16.12.0
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@16.12.0)':
     dependencies:
@@ -2934,7 +2934,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.3(graphql@16.12.0)
       '@graphql-tools/utils': 10.10.0(graphql@16.12.0)
       graphql: 16.12.0
-      tslib: 2.6.3
+      tslib: 2.8.1
     transitivePeerDependencies:
       - encoding
 
@@ -3342,7 +3342,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   camelcase@5.3.1: {}
 
@@ -3351,7 +3351,7 @@ snapshots:
   capital-case@1.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
       upper-case-first: 2.0.2
 
   chalk@4.1.2:
@@ -3385,7 +3385,7 @@ snapshots:
       path-case: 3.0.4
       sentence-case: 3.0.4
       snake-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   chokidar@4.0.3:
     dependencies:
@@ -3463,7 +3463,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   dset@3.1.4: {}
 
@@ -3661,7 +3661,7 @@ snapshots:
   header-case@2.0.4:
     dependencies:
       capital-case: 1.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   ignore@5.3.2: {}
 
@@ -3702,7 +3702,7 @@ snapshots:
 
   is-lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   is-number@7.0.0: {}
 
@@ -3716,7 +3716,7 @@ snapshots:
 
   is-upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   is-windows@1.0.2: {}
 
@@ -3762,7 +3762,7 @@ snapshots:
 
   lower-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   lower-case@2.0.2:
     dependencies:
@@ -3801,7 +3801,7 @@ snapshots:
 
   nf3@0.1.5: {}
 
-  nitro-graphql@2.0.0-beta.8(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251103-181403-aefcdb31(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1))):
+  nitro-graphql@2.0.0-beta.9(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251103-181403-aefcdb31(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1))):
     dependencies:
       '@apollo/subgraph': 2.11.3(graphql@16.12.0)
       '@graphql-codegen/core': 5.0.0(graphql@16.12.0)
@@ -3965,7 +3965,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   parent-module@1.0.1:
     dependencies:
@@ -3987,12 +3987,12 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   path-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   path-exists@4.0.0: {}
 
@@ -4087,7 +4087,7 @@ snapshots:
   sentence-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
       upper-case-first: 2.0.2
 
   set-blocking@2.0.0: {}
@@ -4101,13 +4101,13 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   source-map-js@1.2.1: {}
 
   sponge-case@1.0.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   srvx@0.9.4: {}
 
@@ -4129,7 +4129,7 @@ snapshots:
 
   swap-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   sync-fetch@0.6.0-2:
     dependencies:
@@ -4146,7 +4146,7 @@ snapshots:
 
   title-case@3.0.3:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   to-regex-range@5.0.1:
     dependencies:
@@ -4190,7 +4190,7 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   upper-case@2.0.2:
     dependencies:
