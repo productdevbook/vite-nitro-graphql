@@ -11,7 +11,7 @@ export default defineConfig({
     preset: "standard",
     modules: ["nitro-graphql"],
     graphql: {
-      framework: 'graphql-yoga'
-    }
+      framework: 'graphql-yoga',
+    },
   },
 });
