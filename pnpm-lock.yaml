@@ -15,8 +15,8 @@ importers:
         specifier: ^5.16.0
         version: 5.16.0(graphql@16.12.0)
       nitro-graphql:
-        specifier: 2.0.0-beta.10
-        version: 2.0.0-beta.10(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251104-010441-737f4e6e(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)))
+        specifier: 2.0.0-beta.11
+        version: 2.0.0-beta.11(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251104-010441-737f4e6e(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)))
     devDependencies:
       nitro:
         specifier: npm:nitro-nightly@latest
@@ -1588,8 +1588,8 @@ packages:
   nf3@0.1.5:
     resolution: {integrity: sha512-kb6KFkGzOx1ux95s8kSJF17D/j2hgkWn7/gW6qgLYEZYY6a3eJH463zqb/H/gZLNgQAdGd7FpLkdfbSrXncqhw==}
 
-  nitro-graphql@2.0.0-beta.10:
-    resolution: {integrity: sha512-4gUyxQnGuB5wGciDEVzpFI8WBEDZyN4dlU254qU1PXTP9h+p+U0tic9/CKbGFWjchsyMYZU4zCmaXEY0ScOsFw==}
+  nitro-graphql@2.0.0-beta.11:
+    resolution: {integrity: sha512-csdYiC8c8Za+eCfNDBLBJXJJeqShGYkbzgEBaU+MJmZlg9QZWbPDBlTwZzMtsFLs6ftu0QLqCLpOygAa2+k/+A==}
     peerDependencies:
       '@apollo/server': ^5.0.0
       '@apollo/utils.withrequired': ^3.0.0
@@ -2917,7 +2917,7 @@ snapshots:
   '@graphql-tools/optimize@2.0.0(graphql@16.12.0)':
     dependencies:
       graphql: 16.12.0
-      tslib: 2.6.3
+      tslib: 2.8.1
 
   '@graphql-tools/relay-operation-optimizer@6.5.18(graphql@16.12.0)':
     dependencies:
@@ -2934,7 +2934,7 @@ snapshots:
       '@ardatan/relay-compiler': 12.0.3(graphql@16.12.0)
       '@graphql-tools/utils': 10.10.0(graphql@16.12.0)
       graphql: 16.12.0
-      tslib: 2.6.3
+      tslib: 2.8.1
     transitivePeerDependencies:
       - encoding
 
@@ -3801,7 +3801,7 @@ snapshots:
 
   nf3@0.1.5: {}
 
-  nitro-graphql@2.0.0-beta.10(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251104-010441-737f4e6e(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1))):
+  nitro-graphql@2.0.0-beta.11(@types/node@24.10.0)(crossws@0.4.1(srvx@0.9.4))(graphql-tag@2.12.6(graphql@16.12.0))(graphql@16.12.0)(h3@2.0.1-rc.5(crossws@0.4.1(srvx@0.9.4)))(nitro-nightly@3.0.1-20251104-010441-737f4e6e(chokidar@4.0.3)(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1))):
     dependencies:
       '@apollo/subgraph': 2.11.3(graphql@16.12.0)
       '@graphql-codegen/core': 5.0.0(graphql@16.12.0)
