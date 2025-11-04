@@ -6,17 +6,15 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
     react(),
-    graphql(),
-    nitro()
-  ],
-  nitro: {
-    preset: "standard",
-    modules: ["nitro-graphql"],
-    graphql: {
+    graphql({
       framework: 'graphql-yoga',
       paths: {
         serverGraphql: 'routes/graphql',
       },
-    },
+    }),
+    nitro()
+  ],
+  nitro: {
+    preset: "standard",
   },
 });
