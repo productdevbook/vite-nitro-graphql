@@ -4,6 +4,22 @@ A modern full-stack starter template combining [Vite](https://vitejs.dev/), [Nit
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/productdevbook/vite-nitro-graphql?file=server%2Fgraphql%2Fuser%2FgetUser.resolver.ts)
 
+## Rolldown Support
+
+This project now supports [Rolldown](https://rolldown.rs/), a Rust-based bundler that's significantly faster than traditional JavaScript bundlers. The `rolldown` branch uses:
+
+- **rolldown-vite**: A drop-in replacement for Vite powered by Rolldown
+- **Faster builds**: Experience significantly faster development and production builds
+- **Same API**: Uses the same Vite API you're familiar with
+
+To use the Rolldown version:
+
+```bash
+git checkout rolldown
+pnpm install
+pnpm dev
+```
+
 ## Features
 
 - ⚡️ **Vite** - Lightning fast frontend build tool
