@@ -7,12 +7,13 @@ export default defineConfig({
     graphql({
       framework: 'graphql-yoga',
       paths: {
-        serverGraphql: 'routes/graphql',
+        serverGraphql: 'server/graphql',
       },
     }),
     nitro()
   ],
   nitro: {
     preset: "standard",
+    serverDir: "server",
   },
 });
