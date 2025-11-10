@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import { nitro } from "nitro/vite";
-import { graphql } from 'nitro-graphql/vite'
+import graphql from 'nitro-graphql'
 
 export default defineConfig({
   plugins: [
